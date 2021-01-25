@@ -21,14 +21,6 @@ class Account:
         if(rank == "I"): elo += 300
         elo += lp
 
-class Elo:
-    realLp = 0
-
-    
-
-    def compare(self, elo):
-        return self.realLp - elo.realLp
-
 class tierVal(Enum):
 
     BRONZE = 400
